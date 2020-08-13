@@ -34,7 +34,7 @@ The following table shows the target hardware for the application projects.
 
 ### Setting up [SAM L21 Xplained Pro Evaluation Kit](https://www.microchip.com/developmenttools/ProductDetails/ATSAML21-XPRO-B)
 
-- Use a jumper wire to short pin 16 and pin 17 of the EXT1 header
+- Use a jumper wire to short pin 16 and pin 17 of the EXT2 header
 - Connect the Debug USB port on the board to the computer using a micro USB cable
 
 ## Running the Application
@@ -48,6 +48,6 @@ The following table shows the target hardware for the application projects.
 Following table provides the LED name:
 
 | Board      | LED Name |
-| ---------- | ---------------- |--------- |
+| ---------- | ---------------- |
 | [SAM L21 Xplained Pro Evaluation Kit](https://www.microchip.com/developmenttools/ProductDetails/ATSAML21-XPRO-B) | LED0 |
 |||
