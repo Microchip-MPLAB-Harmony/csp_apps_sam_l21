@@ -40,7 +40,7 @@ The following table shows the target hardware for the application projects.
 
 ### Setting up [SAM L21 Xplained Pro Evaluation Kit](https://www.microchip.com/developmenttools/ProductDetails/ATSAML21-XPRO-B)
 
-- Connect a voltage below the selected ADC reference voltage (VDDANA) to pin 3 (PA02 ) of the EXT1 connector
+- Connect a voltage below the selected ADC reference voltage (VDDANA) to pin 4 (PA03 ) of the EXT1 connector
 - Connect the Debug USB port on the board to the computer using a micro USB cable
 
 ## Running the Application
