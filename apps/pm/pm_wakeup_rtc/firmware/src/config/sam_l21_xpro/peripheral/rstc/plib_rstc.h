@@ -70,6 +70,51 @@
 
 // *****************************************************************************
 // *****************************************************************************
+// Section:Preprocessor macros
+// *****************************************************************************
+// *****************************************************************************
+
+#define RSTC_RESET_CAUSE_POR_RESET  RSTC_RCAUSE_POR_Msk
+
+#define RSTC_RESET_CAUSE_BOD12_RESET  RSTC_RCAUSE_BOD12_Msk
+
+#define RSTC_RESET_CAUSE_BOD33_RESET  RSTC_RCAUSE_BOD33_Msk
+
+#define RSTC_RESET_CAUSE_EXT_RESET  RSTC_RCAUSE_EXT_Msk
+
+#define RSTC_RESET_CAUSE_WDT_RESET  RSTC_RCAUSE_WDT_Msk
+
+#define RSTC_RESET_CAUSE_SYST_RESET  RSTC_RCAUSE_SYST_Msk
+
+#define RSTC_RESET_CAUSE_BACKUP_RESET  RSTC_RCAUSE_BACKUP_Msk
+
+
+#define RSTC_BKUPEXIT_CAUSE_EXTWAKE  RSTC_BKUPEXIT_EXTWAKE_Msk
+
+#define RSTC_BKUPEXIT_CAUSE_RTC  RSTC_BKUPEXIT_RTC_Msk
+
+#define RSTC_BKUPEXIT_CAUSE_BBPS  RSTC_BKUPEXIT_BBPS_Msk
+
+
+#define RSTC_WAKEUP_CAUSE_0  0
+
+#define RSTC_WAKEUP_CAUSE_1  1
+
+#define RSTC_WAKEUP_CAUSE_2  2
+
+#define RSTC_WAKEUP_CAUSE_3  3
+
+#define RSTC_WAKEUP_CAUSE_4  4
+
+#define RSTC_WAKEUP_CAUSE_5  5
+
+#define RSTC_WAKEUP_CAUSE_6  6
+
+#define RSTC_WAKEUP_CAUSE_7  7
+
+
+// *****************************************************************************
+// *****************************************************************************
 // Section: Data Types
 // *****************************************************************************
 // *****************************************************************************
@@ -91,56 +136,11 @@
     Refer to the specific device data sheet to determine availability.
 */
 
-typedef enum
-{
+typedef uint32_t RSTC_RESET_CAUSE;
 
-    RSTC_RESET_CAUSE_POR_RESET = RSTC_RCAUSE_POR_Msk,
+typedef uint32_t RSTC_BKUPEXIT_CAUSE;
 
-    RSTC_RESET_CAUSE_BOD12_RESET = RSTC_RCAUSE_BOD12_Msk,
-
-    RSTC_RESET_CAUSE_BOD33_RESET = RSTC_RCAUSE_BOD33_Msk,
-
-    RSTC_RESET_CAUSE_EXT_RESET = RSTC_RCAUSE_EXT_Msk,
-
-    RSTC_RESET_CAUSE_WDT_RESET = RSTC_RCAUSE_WDT_Msk,
-
-    RSTC_RESET_CAUSE_SYST_RESET = RSTC_RCAUSE_SYST_Msk,
-
-    RSTC_RESET_CAUSE_BACKUP_RESET = RSTC_RCAUSE_BACKUP_Msk,
-
-} RSTC_RESET_CAUSE;
-
-typedef enum
-{
-
-    RSTC_BKUPEXIT_CAUSE_EXTWAKE = RSTC_BKUPEXIT_EXTWAKE_Msk,
-
-    RSTC_BKUPEXIT_CAUSE_RTC = RSTC_BKUPEXIT_RTC_Msk,
-
-    RSTC_BKUPEXIT_CAUSE_BBPS = RSTC_BKUPEXIT_BBPS_Msk,
-
-} RSTC_BKUPEXIT_CAUSE;
-
-typedef enum
-{
-
-    RSTC_WAKEUP_CAUSE_0 = 0,
-
-    RSTC_WAKEUP_CAUSE_1 = 1,
-
-    RSTC_WAKEUP_CAUSE_2 = 2,
-
-    RSTC_WAKEUP_CAUSE_3 = 3,
-
-    RSTC_WAKEUP_CAUSE_4 = 4,
-
-    RSTC_WAKEUP_CAUSE_5 = 5,
-
-    RSTC_WAKEUP_CAUSE_6 = 6,
-
-    RSTC_WAKEUP_CAUSE_7 = 7,
-
-} RSTC_WAKEUP_CAUSE;
+typedef uint32_t RSTC_WAKEUP_CAUSE;
 
 void RSTC_Initialize(void);
 
