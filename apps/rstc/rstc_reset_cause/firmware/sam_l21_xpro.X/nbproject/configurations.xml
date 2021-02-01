@@ -7,37 +7,40 @@
       <logicalFolder name="f1" displayName="config" projectFiles="true">
         <logicalFolder name="f1" displayName="sam_l21_xpro" projectFiles="true">
           <logicalFolder name="f1" displayName="peripheral" projectFiles="true">
-            <logicalFolder name="f4" displayName="clock" projectFiles="true">
+            <logicalFolder name="f1" displayName="clock" projectFiles="true">
               <itemPath>../src/config/sam_l21_xpro/peripheral/clock/plib_clock.h</itemPath>
             </logicalFolder>
-            <logicalFolder name="f9" displayName="eic" projectFiles="true">
+            <logicalFolder name="f2" displayName="eic" projectFiles="true">
               <itemPath>../src/config/sam_l21_xpro/peripheral/eic/plib_eic.h</itemPath>
             </logicalFolder>
-            <logicalFolder name="f5" displayName="nvic" projectFiles="true">
+            <logicalFolder name="f11" displayName="evsys" projectFiles="true">
+              <itemPath>../src/config/sam_l21_xpro/peripheral/evsys/plib_evsys.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="f3" displayName="nvic" projectFiles="true">
               <itemPath>../src/config/sam_l21_xpro/peripheral/nvic/plib_nvic.h</itemPath>
             </logicalFolder>
-            <logicalFolder name="f2" displayName="nvmctrl" projectFiles="true">
+            <logicalFolder name="f4" displayName="nvmctrl" projectFiles="true">
               <itemPath>../src/config/sam_l21_xpro/peripheral/nvmctrl/plib_nvmctrl.h</itemPath>
             </logicalFolder>
-            <logicalFolder name="f8" displayName="pm" projectFiles="true">
+            <logicalFolder name="f5" displayName="pm" projectFiles="true">
               <itemPath>../src/config/sam_l21_xpro/peripheral/pm/plib_pm.h</itemPath>
             </logicalFolder>
-            <logicalFolder name="f3" displayName="port" projectFiles="true">
+            <logicalFolder name="f6" displayName="port" projectFiles="true">
               <itemPath>../src/config/sam_l21_xpro/peripheral/port/plib_port.h</itemPath>
             </logicalFolder>
-            <logicalFolder name="f10" displayName="rstc" projectFiles="true">
+            <logicalFolder name="f7" displayName="rstc" projectFiles="true">
               <itemPath>../src/config/sam_l21_xpro/peripheral/rstc/plib_rstc.h</itemPath>
             </logicalFolder>
-            <logicalFolder name="f1" displayName="sercom" projectFiles="true">
+            <logicalFolder name="f8" displayName="sercom" projectFiles="true">
               <logicalFolder name="f1" displayName="usart" projectFiles="true">
                 <itemPath>../src/config/sam_l21_xpro/peripheral/sercom/usart/plib_sercom3_usart.h</itemPath>
                 <itemPath>../src/config/sam_l21_xpro/peripheral/sercom/usart/plib_sercom_usart_common.h</itemPath>
               </logicalFolder>
             </logicalFolder>
-            <logicalFolder name="f6" displayName="systick" projectFiles="true">
+            <logicalFolder name="f9" displayName="systick" projectFiles="true">
               <itemPath>../src/config/sam_l21_xpro/peripheral/systick/plib_systick.h</itemPath>
             </logicalFolder>
-            <logicalFolder name="f7" displayName="wdt" projectFiles="true">
+            <logicalFolder name="f10" displayName="wdt" projectFiles="true">
               <itemPath>../src/config/sam_l21_xpro/peripheral/wdt/plib_wdt.h</itemPath>
             </logicalFolder>
           </logicalFolder>
@@ -45,6 +48,8 @@
           <itemPath>../src/config/sam_l21_xpro/toolchain_specifics.h</itemPath>
           <itemPath>../src/config/sam_l21_xpro/definitions.h</itemPath>
           <itemPath>../src/config/sam_l21_xpro/device.h</itemPath>
+          <itemPath>../src/config/sam_l21_xpro/interrupts.h</itemPath>
+          <itemPath>../src/config/sam_l21_xpro/device_vectors.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="f2" displayName="packs" projectFiles="true">
@@ -80,10 +85,52 @@
             <itemPath>../src/packs/ATSAML21J18B_DFP/component/usb.h</itemPath>
             <itemPath>../src/packs/ATSAML21J18B_DFP/component/wdt.h</itemPath>
           </logicalFolder>
+          <logicalFolder name="f3" displayName="instance" projectFiles="true">
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/ac.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/adc.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/aes.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/ccl.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/dac.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/dmac.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/dsu.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/eic.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/evsys.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/gclk.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/mclk.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/mtb.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/nvmctrl.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/opamp.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/osc32kctrl.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/oscctrl.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/pac.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/pm.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/port.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/ptc.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/rstc.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/rtc.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/sercom0.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/sercom1.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/sercom2.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/sercom3.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/sercom4.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/sercom5.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/supc.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/tc0.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/tc1.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/tc2.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/tc3.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/tc4.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/tcc0.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/tcc1.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/tcc2.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/trng.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/usb.h</itemPath>
+            <itemPath>../src/packs/ATSAML21J18B_DFP/instance/wdt.h</itemPath>
+          </logicalFolder>
           <logicalFolder name="f2" displayName="pio" projectFiles="true">
             <itemPath>../src/packs/ATSAML21J18B_DFP/pio/saml21j18b.h</itemPath>
           </logicalFolder>
-          <itemPath>../src/packs/ATSAML21J18B_DFP/atsaml21j18b.h</itemPath>
+          <itemPath>../src/packs/ATSAML21J18B_DFP/saml21j18b.h</itemPath>
         </logicalFolder>
         <logicalFolder name="f2" displayName="CMSIS" projectFiles="true">
           <logicalFolder name="f1" displayName="CMSIS" projectFiles="true">
@@ -109,12 +156,16 @@
                    displayName="Important Files"
                    projectFiles="true">
       <itemPath>Makefile</itemPath>
-      <itemPath>../src/config/sam_l21_xpro/harmony.prj</itemPath>
-      <itemPath>../../../../../../mhc/../csp_apps_sam_l21/apps/rstc/rstc_reset_cause/firmware/src/config/sam_l21_xpro/sam_l21_xpro.xml</itemPath>
+      <itemPath>../src/config/sam_l21_xpro/harmony-manifest-success.yml</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
                    projectFiles="true">
+      <logicalFolder name="f1" displayName="config" projectFiles="true">
+        <logicalFolder name="f1" displayName="sam_l21_xpro" projectFiles="true">
+          <itemPath>../src/config/sam_l21_xpro/ATSAML21J18B.ld</itemPath>
+        </logicalFolder>
+      </logicalFolder>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
@@ -122,36 +173,39 @@
       <logicalFolder name="f1" displayName="config" projectFiles="true">
         <logicalFolder name="f1" displayName="sam_l21_xpro" projectFiles="true">
           <logicalFolder name="f1" displayName="peripheral" projectFiles="true">
-            <logicalFolder name="f4" displayName="clock" projectFiles="true">
+            <logicalFolder name="f1" displayName="clock" projectFiles="true">
               <itemPath>../src/config/sam_l21_xpro/peripheral/clock/plib_clock.c</itemPath>
             </logicalFolder>
-            <logicalFolder name="f9" displayName="eic" projectFiles="true">
+            <logicalFolder name="f2" displayName="eic" projectFiles="true">
               <itemPath>../src/config/sam_l21_xpro/peripheral/eic/plib_eic.c</itemPath>
             </logicalFolder>
-            <logicalFolder name="f5" displayName="nvic" projectFiles="true">
+            <logicalFolder name="f11" displayName="evsys" projectFiles="true">
+              <itemPath>../src/config/sam_l21_xpro/peripheral/evsys/plib_evsys.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="f3" displayName="nvic" projectFiles="true">
               <itemPath>../src/config/sam_l21_xpro/peripheral/nvic/plib_nvic.c</itemPath>
             </logicalFolder>
-            <logicalFolder name="f2" displayName="nvmctrl" projectFiles="true">
+            <logicalFolder name="f4" displayName="nvmctrl" projectFiles="true">
               <itemPath>../src/config/sam_l21_xpro/peripheral/nvmctrl/plib_nvmctrl.c</itemPath>
             </logicalFolder>
-            <logicalFolder name="f8" displayName="pm" projectFiles="true">
+            <logicalFolder name="f5" displayName="pm" projectFiles="true">
               <itemPath>../src/config/sam_l21_xpro/peripheral/pm/plib_pm.c</itemPath>
             </logicalFolder>
-            <logicalFolder name="f3" displayName="port" projectFiles="true">
+            <logicalFolder name="f6" displayName="port" projectFiles="true">
               <itemPath>../src/config/sam_l21_xpro/peripheral/port/plib_port.c</itemPath>
             </logicalFolder>
-            <logicalFolder name="f10" displayName="rstc" projectFiles="true">
+            <logicalFolder name="f7" displayName="rstc" projectFiles="true">
               <itemPath>../src/config/sam_l21_xpro/peripheral/rstc/plib_rstc.c</itemPath>
             </logicalFolder>
-            <logicalFolder name="f1" displayName="sercom" projectFiles="true">
+            <logicalFolder name="f8" displayName="sercom" projectFiles="true">
               <logicalFolder name="f1" displayName="usart" projectFiles="true">
                 <itemPath>../src/config/sam_l21_xpro/peripheral/sercom/usart/plib_sercom3_usart.c</itemPath>
               </logicalFolder>
             </logicalFolder>
-            <logicalFolder name="f6" displayName="systick" projectFiles="true">
+            <logicalFolder name="f9" displayName="systick" projectFiles="true">
               <itemPath>../src/config/sam_l21_xpro/peripheral/systick/plib_systick.c</itemPath>
             </logicalFolder>
-            <logicalFolder name="f7" displayName="wdt" projectFiles="true">
+            <logicalFolder name="f10" displayName="wdt" projectFiles="true">
               <itemPath>../src/config/sam_l21_xpro/peripheral/wdt/plib_wdt.c</itemPath>
             </logicalFolder>
           </logicalFolder>
@@ -181,11 +235,11 @@
         <targetPluginBoard></targetPluginBoard>
         <platformTool>EdbgTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>2.41</languageToolchainVersion>
+        <languageToolchainVersion>2.50</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="SAML21_DFP" vendor="Microchip" version="3.3.68"/>
+        <pack name="SAML21_DFP" vendor="Microchip" version="3.4.82"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
@@ -206,6 +260,7 @@
       </compileType>
       <makeCustomizationType>
         <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeUseCleanTarget>false</makeUseCleanTarget>
         <makeCustomizationPreStep></makeCustomizationPreStep>
         <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
         <makeCustomizationPostStep></makeCustomizationPostStep>
@@ -386,6 +441,7 @@
         <property key="firmware.toolpack"
                   value="Press to select which tool pack to use"/>
         <property key="firmware.update.action" value="firmware.update.use.latest"/>
+        <property key="freeze.timers" value="false"/>
         <property key="lastid" value=""/>
         <property key="memories.aux" value="false"/>
         <property key="memories.bootflash" value="true"/>
@@ -400,7 +456,10 @@
                   value="${memories.instruction.ram.ranges}"/>
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-3ffff"/>
+        <property key="memories.rww" value="true"/>
         <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmerToGoFilePath"
+                  value="D:/harmony/csp_apps_sam_l21/apps/rstc/rstc_reset_cause/firmware/sam_l21_xpro.X/debug/sam_l21_xpro/sam_l21_xpro_ptg"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preservedataflash.ranges"
@@ -419,6 +478,7 @@
         <property key="toolpack.updateoptions.packversion"
                   value="Press to select which tool pack to use"/>
         <property key="voltagevalue" value=""/>
+        <property key="x.erase.clearprot" value="true"/>
       </EdbgTool>
       <PICkit3PlatformTool>
         <property key="ADC 1" value="true"/>
