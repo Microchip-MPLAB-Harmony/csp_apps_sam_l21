@@ -76,13 +76,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: F9AA498D2DB20E7E1CEAFA0BD65BC0E6
-- generatedChecksum: A3B30A00889DAB3E93F3297EABEF3BEB
+- generatedChecksum: F2C1862C5952538578A665BD4CFEBA02
   logicalPath: config\sam_l21_xpro\peripheral\pm
   name: plib_pm.c
   physicalPath: peripheral\pm
   security: NON_SECURE
   type: SOURCE
-  userChecksum: A3B30A00889DAB3E93F3297EABEF3BEB
+  userChecksum: F2C1862C5952538578A665BD4CFEBA02
 - generatedChecksum: 5433FE6E93628914AF796ED9954E35EA
   logicalPath: config\sam_l21_xpro\peripheral\port
   name: plib_port.c
@@ -97,13 +97,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: F241CB3F9470C65B92B5EDD4AC565797
-- generatedChecksum: F31208651755B383DD675447DEA1A47A
+- generatedChecksum: 524680CF6832B13E7FA7698E464B07C1
   logicalPath: config\sam_l21_xpro\peripheral\sercom\usart
   name: plib_sercom3_usart.c
   physicalPath: peripheral\sercom\usart
   security: NON_SECURE
   type: SOURCE
-  userChecksum: F31208651755B383DD675447DEA1A47A
+  userChecksum: 524680CF6832B13E7FA7698E464B07C1
 - generatedChecksum: 2645E564BD945DAED1424FD8D7B39330
   logicalPath: config\sam_l21_xpro
   name: startup_xc32.c
