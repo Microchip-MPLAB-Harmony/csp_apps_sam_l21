@@ -105,6 +105,8 @@ children:
         - {type: Value, value: 'true'}
     - type: Values
       children:
+      - type: Dynamic
+        attributes: {id: sercom2, value: 'false'}
       - type: User
         attributes: {value: 'false'}
   - type: Boolean
