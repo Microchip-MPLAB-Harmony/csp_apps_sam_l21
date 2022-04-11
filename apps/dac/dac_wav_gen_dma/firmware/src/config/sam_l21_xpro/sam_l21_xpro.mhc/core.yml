@@ -114,14 +114,14 @@ children:
     - type: Values
       children:
       - type: User
-        attributes: {value: DAC_EMPTY_1}
+        attributes: {value: TC0_OVF}
   - type: Integer
     attributes: {id: DMAC_CHCTRLB_TRIGSRC_CH_0_PERID_VAL}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: '39'}
+        attributes: {id: core, value: '22'}
   - type: Boolean
     attributes: {id: DMAC_ENABLE_CH_0}
     children:

@@ -82,7 +82,7 @@ void InitializeTxLinkedListDescriptor(void)
     pTxLinkedListDesc[0].DMAC_BTCTRL     = (uint16_t)BUFFER_TX_BTCTRL;
     pTxLinkedListDesc[0].DMAC_BTCNT      = NUM_OF_SAMPLES;
     pTxLinkedListDesc[0].DMAC_DESCADDR   = (uint32_t)&pTxLinkedListDesc[0];
-    pTxLinkedListDesc[0].DMAC_DSTADDR    = (uint32_t)&DAC_REGS->DAC_DATABUF[1];
+    pTxLinkedListDesc[0].DMAC_DSTADDR    = (uint32_t)&DAC_REGS->DAC_DATA[1];
     pTxLinkedListDesc[0].DMAC_SRCADDR    = (uint32_t)sine_wave + sizeof(sine_wave);
 }
 
