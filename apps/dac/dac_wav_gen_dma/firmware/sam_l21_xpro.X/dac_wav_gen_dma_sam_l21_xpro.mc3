@@ -1,4 +1,4 @@
-<config configName="sam_l21_xpro" projectName="dac_wav_gen_dma_sam_l21_xpro" configVersion="1.1" device="ATSAML21J18B" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.2">
+<config configName="sam_l21_xpro" projectName="dac_wav_gen_dma_sam_l21_xpro" configVersion="1.1" device="ATSAML21J18B" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.3">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -35,7 +35,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.0.8"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.1.1"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -1703,6 +1703,10 @@
          <hash>7071442fafe5b01b5ba89ae35c09ee7d24f3dbb93388deaff154696764146df8</hash>
       </entry>
       <entry>
+         <file>..\src\config\sam_l21_xpro\pin_configurations.csv</file>
+         <hash>21599791e945a3ffd1346304a9050fe2a5874f0acfa0fb901589fbae546af18b</hash>
+      </entry>
+      <entry>
          <file>..\src\packs\ATSAML21J18B_DFP\component\ccl.h</file>
          <hash>893aa5f933aa5318766045582b05e35b59b84ab6797a0a3e99e4948895d83d33</hash>
       </entry>
@@ -1868,7 +1872,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l21_xpro\stdio\xc32_monitor.c</file>
-         <hash>6c13b9480448df2ed9939fdcc86ee668cb1a34088dac0ae21c4fda30ec04633a</hash>
+         <hash>858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML21J18B_DFP\instance\mclk.h</file>
@@ -1896,7 +1900,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l21_xpro\peripheral\pm\plib_pm.c</file>
-         <hash>daa3fe2a5f8b50ec925eade1950711c8b29a724470ff9c29c17e3d0261fb8d9a</hash>
+         <hash>e578d4cd062a5146385d78d6a87cb74ed9cbf07404af5104ecbbcfb85a443dbd</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_l21_xpro\peripheral\nvic\plib_nvic.c</file>
@@ -1908,7 +1912,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l21_xpro\peripheral\nvmctrl\plib_nvmctrl.h</file>
-         <hash>4f9d4ea77ad82c74b01adcd9ad9ed80d24ea3195cd13b6cc991dc8ac5e943b59</hash>
+         <hash>3706575d02d502967b3a77c5d6c33f26721148603934715fcbd98c62d20a2663</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_l21_xpro\interrupts.c</file>
@@ -1920,7 +1924,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l21_xpro\peripheral\nvmctrl\plib_nvmctrl.c</file>
-         <hash>e0ccc0d9d47601799619355bb2db489bf97130781f9b769f5735eead344ace05</hash>
+         <hash>ab6f363dc6978fa96d7ac0736f1647d98df6474db7a58f3e2a2e83bf8ba4c282</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_l21_xpro\interrupts.h</file>
@@ -2012,7 +2016,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l21_xpro\peripheral\port\plib_port.h</file>
-         <hash>d7af0ff813641fde466bdb075d2c814c6defec7d33bdd8a0755e0886ea58b632</hash>
+         <hash>f0ddf7211cc2ce02842f66a57101fdfa7ce40b78d8537e49c4b9ed29c9e18cb7</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML21J18B_DFP\instance\osc32kctrl.h</file>
@@ -2024,7 +2028,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l21_xpro\peripheral\port\plib_port.c</file>
-         <hash>2860bda7eb9c36798c20c73a79d3dc0c84e3adcd720204d492452c81565dca5a</hash>
+         <hash>89c2e0e9a505782ec04ce11896e3392d96ee7b3f82620bc3215aaf5fd41d1ee7</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML21J18B_DFP\component\sercom.h</file>

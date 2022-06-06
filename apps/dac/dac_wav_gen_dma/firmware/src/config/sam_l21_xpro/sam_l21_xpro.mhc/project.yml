@@ -69,20 +69,20 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: DA4E1943934DBB21561B132543E4BAD8
-- generatedChecksum: B5184C8F8639EF6CC49005ABDE3FA036
+- generatedChecksum: D4D6E4E50E443F793BFED0A79B849B6A
   logicalPath: config/sam_l21_xpro/peripheral/nvmctrl
   name: plib_nvmctrl.c
   physicalPath: peripheral/nvmctrl
   security: NON_SECURE
   type: SOURCE
-  userChecksum: B5184C8F8639EF6CC49005ABDE3FA036
-- generatedChecksum: A74E40BC6FB50F134417F2039E5EABBE
+  userChecksum: D4D6E4E50E443F793BFED0A79B849B6A
+- generatedChecksum: 5D615037E11638D2FDB4FF909B0E66BE
   logicalPath: config/sam_l21_xpro/peripheral/pm
   name: plib_pm.c
   physicalPath: peripheral/pm
   security: NON_SECURE
   type: SOURCE
-  userChecksum: A74E40BC6FB50F134417F2039E5EABBE
+  userChecksum: 5D615037E11638D2FDB4FF909B0E66BE
 - generatedChecksum: 0A991FA5F49C33D79F1B14D4F3FD628F
   logicalPath: config/sam_l21_xpro/peripheral/port
   name: plib_port.c
@@ -104,13 +104,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 64C7B09EBF0E16AC27EFD31B52FDDDF8
-- generatedChecksum: 5B56F6750D4FD0810FD93C92FD0D900F
+- generatedChecksum: 71352EF41F6688AD8408E42970B50B66
   logicalPath: config/sam_l21_xpro/stdio
   name: xc32_monitor.c
   physicalPath: stdio
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 5B56F6750D4FD0810FD93C92FD0D900F
+  userChecksum: 71352EF41F6688AD8408E42970B50B66
 - generatedChecksum: 3BF9944D1F5675EBE508C3EFC9D01821
   logicalPath: packs/ATSAML21J18B_DFP/component
   name: ac.h
@@ -503,13 +503,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 55ECCC7FA71BD15B46EF80DC0515ED7A
-- generatedChecksum: 218CA1EC78F401FD89E954C598EF04C9
+- generatedChecksum: 61E9143D5D7C5573DC567E0474B23452
   logicalPath: config/sam_l21_xpro/peripheral/nvmctrl
   name: plib_nvmctrl.h
   physicalPath: peripheral/nvmctrl
   security: NON_SECURE
   type: HEADER
-  userChecksum: 218CA1EC78F401FD89E954C598EF04C9
+  userChecksum: 61E9143D5D7C5573DC567E0474B23452
 - generatedChecksum: 2C6F9BA1BFA523200ED784A7D4FC3C81
   logicalPath: config/sam_l21_xpro/peripheral/pm
   name: plib_pm.h
@@ -811,6 +811,13 @@ files:
   security: NON_SECURE
   type: LINKER
   userChecksum: 8C9170A25C41DC1F49CBF23BBB840F62
+- generatedChecksum: 8379EB1479B3B54F0A601E48C81F8DEA
+  logicalPath: ''
+  name: pin_configurations.csv
+  physicalPath: ''
+  security: NON_SECURE
+  type: IMPORTANT
+  userChecksum: 8379EB1479B3B54F0A601E48C81F8DEA
 format_version: v1.0
 libraries: []
 settings:
