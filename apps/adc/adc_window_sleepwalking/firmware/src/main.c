@@ -78,7 +78,7 @@ int main ( void )
     RTC_Timer32Start();
     
     printf("\n\r---------------------------------------------------------");
-    printf("\n\r                    ADC Window Sleepwalking Demo          ");
+    printf("\n\r                    ADC Window Sleepwalking Demo                 ");
     printf("\n\r---------------------------------------------------------\n\r");
     
     ADC_CallbackRegister(adc_cb, adc_context);
