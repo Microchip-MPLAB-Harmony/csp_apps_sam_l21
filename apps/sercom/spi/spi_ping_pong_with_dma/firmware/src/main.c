@@ -83,7 +83,7 @@ uint8_t rxPingBuffer[sizeof(txPingBuffer)];
 uint8_t txPongBuffer[] = "initial_dma_data_from_pong_buffer";
 uint8_t rxPongBuffer[sizeof(txPongBuffer)];
 
-volatile APP_STATES state = APP_STATE_INITIALIZE;
+static volatile APP_STATES state = APP_STATE_INITIALIZE;
 
 dmac_descriptor_registers_t pTxLinkedListDesc[2] __attribute__((aligned(16),space(data),address(0x30000500),keep,externally_visible));
 dmac_descriptor_registers_t pRxLinkedListDesc[2] __attribute__((aligned(16),space(data),address(0x30000520),keep,externally_visible));
