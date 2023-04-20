@@ -53,8 +53,8 @@
 #include "peripheral/port/plib_port.h"
 #include "peripheral/clock/plib_clock.h"
 #include "peripheral/nvic/plib_nvic.h"
-#include "peripheral/sercom/spi_master/plib_sercom5_spi_master.h"
 #include "peripheral/pm/plib_pm.h"
+#include "peripheral/sercom/spi_master/plib_sercom5_spi_master.h"
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility
@@ -63,6 +63,12 @@ extern "C" {
 
 #endif
 // DOM-IGNORE-END
+
+/* Device Information */
+#define DEVICE_NAME			 "ATSAML21J18B"
+#define DEVICE_ARCH			 "CORTEX-M0PLUS"
+#define DEVICE_FAMILY		 "SAML"
+#define DEVICE_SERIES		 "SAML21"
 
 /* CPU clock frequency */
 #define CPU_CLOCK_FREQUENCY 48000000
