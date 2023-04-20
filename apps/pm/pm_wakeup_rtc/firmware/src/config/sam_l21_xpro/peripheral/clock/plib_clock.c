@@ -41,6 +41,8 @@
 #include "plib_clock.h"
 #include "device.h"
 
+
+
 static void OSCCTRL_Initialize(void)
 {
     /**************** OSC16M IniTialization *************/
@@ -76,11 +78,11 @@ void CLOCK_Initialize (void)
     /* Function to Initialize the 32KHz Oscillators */
     OSC32KCTRL_Initialize();
 
-    /*Initialize low Power Divider*/
-    MCLK_REGS->MCLK_LPDIV = MCLK_LPDIV_LPDIV(0x01U);
-
     /*Initialize Backup Divider*/
     MCLK_REGS->MCLK_BUPDIV = MCLK_BUPDIV_BUPDIV(0x08U);
+
+    /*Initialize low Power Divider*/
+    MCLK_REGS->MCLK_LPDIV = MCLK_LPDIV_LPDIV(0x01U);
 
     GCLK0_Initialize();
 
