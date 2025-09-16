@@ -1,0 +1,56 @@
+configVersion: 1.0.0
+componentName: rstc
+coreVersion: 5.8.2
+device: ATSAML21J18B
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: rstc
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: CMSIS_5
+  type: package
+  version: 5.9.0
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.23.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: rstc
+          x: '382'
+          y: '220'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    WAKEUP_2_ENABLE:
+      attributes:
+        id: WAKEUP_2_ENABLE
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    WAKEUP_ENABLE_VALUE:
+      attributes:
+        id: WAKEUP_ENABLE_VALUE
+      children:
+      - children:
+        - attributes:
+            id: rstc
+            value: '4'
+          type: Dynamic
+        type: Values
+      type: Hex
+  userData: {}
