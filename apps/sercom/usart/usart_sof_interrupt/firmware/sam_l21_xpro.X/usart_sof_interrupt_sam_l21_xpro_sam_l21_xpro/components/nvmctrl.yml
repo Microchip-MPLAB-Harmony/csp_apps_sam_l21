@@ -1,0 +1,59 @@
+configVersion: 1.0.0
+componentName: nvmctrl
+coreVersion: 5.8.2
+device: ATSAML21J18B
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: nvmctrl
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: CMSIS_5
+  type: package
+  version: 5.9.0
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.23.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: nvmctrl
+          x: '19'
+          y: '21'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    NVMCTRL_CTRLB_POWER_REDUCTION_MODE:
+      attributes:
+        id: NVMCTRL_CTRLB_POWER_REDUCTION_MODE
+      children:
+      - children:
+        - attributes:
+            value: '0'
+          type: User
+        type: Values
+      type: KeyValueSet
+    NVM_RWS:
+      attributes:
+        id: NVM_RWS
+      children:
+      - children:
+        - attributes:
+            id: nvmctrl
+            value: '0'
+          type: Dynamic
+        - attributes:
+            value: '0'
+          type: User
+        type: Values
+      type: Integer
+  userData: {}
