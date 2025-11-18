@@ -142,9 +142,9 @@ void SYS_Initialize ( void* data )
 
     NVMCTRL_Initialize( );
 
-    SERCOM0_SPI_Initialize();
-
     EVSYS_Initialize();
+
+    SERCOM0_SPI_Initialize();
 
 
     /* MISRAC 2012 deviation block start */

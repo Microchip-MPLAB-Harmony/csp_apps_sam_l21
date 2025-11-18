@@ -16,7 +16,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_l21_xpro\ATSAML21J18B.ld
   hash: cc7152d2a0b5bace72dc7c26a235bb9b27cfe784dad4effeaedbe36e65ca8e4e
 - file: ..\src\config\sam_l21_xpro\definitions.h
-  hash: ccb37a03f0d98afa7754c87939f49f4fcbd175859446ba31665fca85ae5b9251
+  hash: fbb6475512b497d6ce133d7881a67b21ca668f52cd0bff2dad2618933b642684
 - file: ..\src\config\sam_l21_xpro\device.h
   hash: d91a174755c3e4150d6658753b2298b731c72e9e4dfd38533c73004b5c0abcf4
 - file: ..\src\config\sam_l21_xpro\device_cache.h
